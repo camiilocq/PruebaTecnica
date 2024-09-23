@@ -1,0 +1,150 @@
+[
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.EmpresaController",
+    "Method": "DeleteEmpresa",
+    "RelativePath": "api/Empresa/api/Empresa/DeleteEmpresa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.EmpresaController",
+    "Method": "Get",
+    "RelativePath": "api/Empresa/api/Empresa/GetEmpresaById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.EmpresaController",
+    "Method": "Get",
+    "RelativePath": "api/Empresa/api/Empresa/GetEmpresas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.EmpresaController",
+    "Method": "Post",
+    "RelativePath": "api/Empresa/api/Empresa/GuardarEmpresa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BE_PruebaTecnica.Models.EmpresaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.EmpresaController",
+    "Method": "Put",
+    "RelativePath": "api/Empresa/api/Empresa/UpdateEmpresa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BE_PruebaTecnica.Models.EmpresaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.ProductoController",
+    "Method": "DeleteProducto",
+    "RelativePath": "api/Producto/api/Producto/DeleteProducto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.ProductoController",
+    "Method": "Get",
+    "RelativePath": "api/Producto/api/Producto/GetProductById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.ProductoController",
+    "Method": "Get",
+    "RelativePath": "api/Producto/api/Producto/GetProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.ProductoController",
+    "Method": "Post",
+    "RelativePath": "api/Producto/api/Producto/GuardarProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BE_PruebaTecnica.Model.ProductoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE_PruebaTecnica.Controllers.ProductoController",
+    "Method": "Put",
+    "RelativePath": "api/Producto/api/Producto/UpdateProducto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BE_PruebaTecnica.Model.ProductoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
